@@ -1,0 +1,8 @@
+Create the Budget class that represents the budgets table in the database diagram. Should contain these columns:
+id Integer PK
+group_id Integer FK to budget_groups
+name varchar(64) not null
+budget_amount_in_cents = Integer
+
+Also create a property "budget_amount" that will return / set budget_amount_in_cents as a dollar amount.
+Set the __str__ and __repr__ methods to pretty print the object.

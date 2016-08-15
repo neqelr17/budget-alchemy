@@ -1,0 +1,9 @@
+Create the Item class that represents the items table in the database diagram. Should contain these columns:
+id Integer PK
+budget_id Integer FK to budgets
+transaction_id Integer FK to transactions
+name varchar(64) not null
+amount_in_cents = Integer
+
+Also create a property "amount" that will return / set amount_in_cents as a dollar amount.
+Set the __str__ and __repr__ methods to pretty print the object.

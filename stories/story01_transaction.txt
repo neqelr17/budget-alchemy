@@ -1,0 +1,9 @@
+Create the Transaction class that represents the transactions table in the database diagram. Should contain these columns:
+id Integer PK
+user_id Integer FK to user
+name varchar(64)
+date datetime
+
+Should also have a relationship items, which should list the items that relate to the transaction.
+    Use a backref to relate it to the item named transaction
+Set the __str__ and __repr__ methods to pretty print the object.
