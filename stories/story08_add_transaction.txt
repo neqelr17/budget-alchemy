@@ -1,0 +1,5 @@
+Create a script or application that uses the models that we have created to add/modify a Transaction.
+
+You should prompt the user for the transaction info to add a new transaction and items.
+
+Default one item to the transaction that points at a user prompted budget. Then allow them the create more items if needed.

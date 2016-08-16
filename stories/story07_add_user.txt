@@ -1,0 +1,14 @@
+Create a script or application that uses the models that we have created to add/modify a user.
+
+You should prompt the user for the account info to add a new user.
+
+If the user gives you the correct password for the user_name, let them change the info on that user.
+
+Example user:
+"user_name": "grub",
+"first_name": "Worm",
+"middle_name": "R",
+"last_name": "Sauce",
+"password": "password"
+
+*Note: You may want to add a few methods to the User model, that is fine go ahead.
