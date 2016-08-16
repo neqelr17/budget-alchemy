@@ -1,0 +1,7 @@
+Create the BudgetGroup class that represents the budget_groups table in the database diagram. Should contain these columns:
+id Integer PK
+name varchar(64) not null
+
+Should also have a relationship budgets, which should list the budgets that relate to the bugdget_group.
+    Use a backref to relate it to the budget named budget_group
+Set the __str__ and __repr__ methods to pretty print the object.
