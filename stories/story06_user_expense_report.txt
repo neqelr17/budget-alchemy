@@ -1,0 +1,3 @@
+Create a script or application that uses the models that we have created to create a user expense report.
+
+The report should list the users and how much they spent total and in each group.
