@@ -1,0 +1,126 @@
+{
+    "users": [
+        {
+            "user_name": "neqel",
+            "first_name": "Brett",
+            "middle_name": "R",
+            "last_name": "Ward",
+            "password": "saucy"
+        },
+        {"user_name": "toothless",
+            "first_name": "Ezery",
+            "middle_name": "Snow",
+            "last_name": "Fairchild",
+            "password": "matrix"
+        },
+        {"user_name": "chewy",
+            "first_name": "Han",
+            "middle_name": "",
+            "last_name": "Solo",
+            "password": "helix"
+        }
+    ],
+    "groups": [
+        {
+            "name": "Food",
+            "budgets": [
+                {
+                    "name": "Fast Food",
+                    "amount": "50.00"
+                },
+                {
+                    "name": "Groceries",
+                    "amount": "100.50"
+                }
+            ]
+        },
+        {
+            "name": "Auto",
+            "budgets": [
+                {
+                    "name": "Gas",
+                    "amount": "80.00"
+                }
+            ]
+        },
+        {
+            "name": "House",
+            "budgets": [
+                {
+                    "name": "Mortgage",
+                    "amount": "1200.00"
+                },
+                {
+                    "name": "Escrow",
+                    "amount": "99.99"
+                },
+                {
+                    "name": "PMI",
+                    "amount": "159.99"
+                },
+                {
+                    "name": "Other",
+                    "amount": "50.00"
+                }
+            ]
+        }
+    ],
+    "transactions": [
+        {
+            "name": "Macys",
+            "user": "neqel",
+            "date": "2016-08-10 18:52:15.331920",
+            "items": [
+                {
+                    "name": "Food",
+                    "amount": "125.00",
+                    "budget": "Groceries"
+                },
+                {
+                    "name": "Light Bulbs",
+                    "amount": "10.05",
+                    "budget": "Other"
+                }
+            ]
+        },
+        {
+            "name": "Maverick",
+            "user": "chewy",
+            "date": "2016-08-09 18:52:15.331920",
+            "items": [
+                {
+                    "name": "Burrito and Rockstar",
+                    "amount": "12.99",
+                    "budget": "Fast Food"
+                },
+                {
+                    "name": "Mazda Gas",
+                    "amount": "39.99",
+                    "budget": "Gas"
+                }
+            ]
+        },
+        {
+            "name": "Chase Bank",
+            "user": "neqel",
+            "date": "2016-08-01 01:02:15.331920",
+            "items": [
+                {
+                    "name": "August Mortgage",
+                    "amount": "1200.00",
+                    "budget": "Mortgage"
+                },
+                {
+                    "name": "August Escrow",
+                    "amount": "99.99",
+                    "budget": "Escrow"
+                },
+                {
+                    "name": "August PMI",
+                    "amount": "159.99",
+                    "budget": "PMI"
+                }
+            ]
+        }
+    ]
+}
